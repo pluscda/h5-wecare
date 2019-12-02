@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Navheader from '@/components/header.vue'
+import Navheader from '@/components/Header.vue'
 
 export default {
 	components: { Navheader },

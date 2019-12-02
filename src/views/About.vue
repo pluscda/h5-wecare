@@ -28,7 +28,7 @@
   </div>
 </template>
 <script>
-import myschedulebutton from  '@/components/Myschedulebutton'
+import myschedulebutton from  '@/components/MyScheduleButton'
 export default {
   components: {myschedulebutton},
 }

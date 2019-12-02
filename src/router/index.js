@@ -35,7 +35,7 @@ const routes = [
   {
     path: '/carelicense',
     name: 'carelicense',
-    component: () => import('../views/Carelicense.vue')
+    component: () => import('../views/CareLicense.vue')
   },
 ]
 
