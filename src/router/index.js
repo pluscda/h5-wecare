@@ -37,6 +37,11 @@ const routes = [
     name: 'carelicense',
     component: () => import('../views/CareLicense.vue')
   },
+  {
+    path: '/registered',
+    name: 'registered',
+    component: () => import('../views/Registered.vue')
+  },
 ]
 
 const router = new VueRouter({

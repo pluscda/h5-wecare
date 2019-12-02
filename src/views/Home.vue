@@ -5,7 +5,7 @@
     </van-row>
 
     <van-row class="button">
-      <van-col span="24"><van-button size="large" type="info">註冊</van-button></van-col>
+      <van-col span="24"><van-button to="/registered" size="large" type="info">註冊</van-button></van-col>
     </van-row>
     <van-row class="button">
       <van-col span="24"><van-button to="/about" size="large" type="info">登入</van-button></van-col>
@@ -32,9 +32,10 @@ html, body {
   background-image:url('../../src/assets/images/login/bgimg.png');
   background-size: cover;
   height: 700px;
-  border: 1px solid ;
   box-sizing: border-box;
-
+  position: absolute ;
+  width: 100%;
+  /* 這裡背景圖希望不要讓它滾動 */
 }
 * {
   position: relative;
@@ -52,7 +53,7 @@ html, body {
 .button{
   padding: 0px;
   margin: 5px;
-  width: 35%;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
