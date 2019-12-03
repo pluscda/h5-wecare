@@ -32,7 +32,7 @@ export default {
   position: sticky;
   left: 0px;
   top: 0px;
-  z-index: 999999;
+  z-index: 2;
 }
 </style>
 
