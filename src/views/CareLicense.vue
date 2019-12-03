@@ -38,13 +38,7 @@ export default {
 };
 </script>
 
-<style>
-* {
-  /* border: 1px solid; */
-}
-.licensebox {
-  width: ;
-}
+<style lang="scss" scoped>
 h4 {
   text-align: left;
   padding: 15px;
@@ -70,3 +64,4 @@ h4 {
   border-radius: 5%;
 }
 </style>
+
