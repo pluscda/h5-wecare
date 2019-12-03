@@ -14,6 +14,16 @@ export default {
   components: { Navheader }
 };
 </script>
+
+<style>
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+</style>
 <style lang="scss" scoped>
 .app {
   position: relative;
