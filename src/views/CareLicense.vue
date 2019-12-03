@@ -49,11 +49,7 @@ h4 {
   border-radius: 50%;
   background-color: white;
 }
-.Img {
-  /* position: relative;
-  float: right; */
-  /* float: right; */
-}
+
 .box {
   width: 80%;
   background-color: #f8f8f8;
