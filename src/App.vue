@@ -1,21 +1,28 @@
 <template>
-  <div>
-    <Navheader></Navheader>
-    <router-view/>
+  <div class="app">
+    <div class="row">
+      <Navheader class="header"></Navheader>
+    </div>
+    <router-view />
   </div>
 </template>
 
 <script>
-import Navheader from '@/components/Header.vue'
+import Navheader from "@/components/Header.vue";
 
 export default {
-	components: { Navheader },
-}
+  components: { Navheader }
+};
 </script>
-
-<style>
-/*.NavBar{
-  height: 20%;
-  background-color: red;
-}*/
+<style lang="scss" scoped>
+.app {
+  position: relative;
+}
+.row {
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  z-index: 999999;
+}
 </style>
+
